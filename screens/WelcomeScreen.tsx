@@ -27,7 +27,7 @@ const WelcomeScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
             height: height / 2.5,
           }}
           resizeMode="contain"
-          source={require("../assets/images/welcome-img.png")}
+          source={require("../assets/images/undraw_Safe_re_kiil.png")}
         />
         <View
           style={{
@@ -43,7 +43,7 @@ const WelcomeScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
               textAlign: "center",
             }}
           >
-            Discover Your Dream Job here
+           Welcome to our intelligent home security solution
           </Text>
 
           <Text
@@ -55,8 +55,7 @@ const WelcomeScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
               marginTop: Spacing * 2,
             }}
           >
-            Explore all the existing job roles based or your interest and study
-            major
+           where you can remotely monitor your children's activities with ease and peace of mind
           </Text>
         </View>
         <View

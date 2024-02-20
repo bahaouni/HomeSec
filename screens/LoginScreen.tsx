@@ -149,6 +149,7 @@ const LoginScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
                 marginHorizontal: Spacing,
               }}
             >
+              
               <Ionicons
                 name="logo-google"
                 color={Colors.text}
